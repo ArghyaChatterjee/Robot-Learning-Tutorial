@@ -1,0 +1,60 @@
+\documentclass[table]{article}
+\usepackage{tutorial}
+
+
+% Custom commands
+\newcommand{\huggingface}{\raisebox{-1.5pt}{\includegraphics[height=1.05em]{logos/hf.pdf}}\xspace}
+\newcommand{\coreContrib}{\raisebox{.33em}{\hspace{.05em}\includegraphics[height=.5em]{logos/core.png}}\xspace}
+
+\newcommand{\hf}{\raisebox{.28em}{\hspace{.05em}\includegraphics[height=1em]{logos/hf.pdf}}\xspace}
+\newcommand{\ensps}{\raisebox{.3em}{\hspace{.05em}\includegraphics[height=.65em]{logos/ensps_logo.pdf}}\xspace}
+\newcommand{\oxford}{\raisebox{.3em}{\hspace{.05em}\includegraphics[height=1em]{logos/oxford_logo.png}}\xspace}
+
+\title{
+Robot Learning: A Tutorial
+}
+
+\authorOne[]{Francesco Capuano \oxford \hf}
+\authorOne[]{Caroline Pascal\hf}
+\authorOne[]{Adil Zouitine\hf}
+\authorOne[]{Thomas Wolf\hf}
+\authorOne[]{Michel Aractingi\hf}
+
+\contribution[]{\oxford University of Oxford, \hf Hugging Face}
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+\abstract{
+\input{sections/00_abstract}
+}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\input{sections/A_foreword.tex}
+
+\newpage
+\input{sections/01_introduction}
+
+\newpage
+\input{sections/02_classic_robotics}
+
+\newpage
+\input{sections/03_reinforcement_learning.tex}
+
+\newpage
+\input{sections/04_imitation_learning.tex}
+
+\newpage
+\input{sections/05_foundation_models.tex}
+
+\newpage
+\input{sections/07_conclusions.tex}
+
+\bibliographystyle{plainnat}
+\bibliography{main}
+
+\end{document}
