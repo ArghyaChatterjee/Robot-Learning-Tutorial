@@ -1,5 +1,9 @@
 # Robot Learning Tutorial
 
+# Source
+* Related Github Repo: https://github.com/fracapuano/robot-learning-tutorial
+* Related Paper: https://arxiv.org/pdf/2510.12403
+
 ## Table of Contents
 
 ### 1. Introduction
@@ -62,7 +66,3 @@
 
 ### 7. Conclusions
 - [x] 7.1 Conclusions
-
-## Source
-
-Original work is from: https://github.com/fracapuano/robot-learning-tutorial
